@@ -35,7 +35,7 @@ const Layout = () => {
           </div>
 
           <div className={css.profile}>
-            <img src="./profile.png" alt="person image" />
+            <img style={{borderRadius:'50%'}} src="./profile.png" alt="person image" />
             <div className={css.details}>
               <span>Akshay</span>
               <span>akshay.120995@gmail.com</span>
